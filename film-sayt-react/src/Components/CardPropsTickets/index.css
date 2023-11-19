@@ -1,0 +1,42 @@
+.tickets-card{
+    color: white;
+    background-color: black;
+   display: flex;
+
+   gap: 20px;
+}
+.days{
+    padding: 39px 20px 39px 34px;
+}
+.title-day{
+    font-weight: 500;
+    text-transform: uppercase;
+    color: white;
+    font-size: 25px;
+    line-height: 1.06em;
+    margin-bottom: 20px;
+}
+.type-tick{
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.price-tick{
+    margin-bottom: 20px;
+    font-size: 18px; 
+}
+.price-desc{
+    max-width: 200px;
+}
+.buy-tick{
+    padding: 20px 20px 39px 34px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-left: 2px dashed white;
+}
+.cirkle{
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    background-color: #EF9797;
+}

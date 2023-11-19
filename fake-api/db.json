@@ -1,0 +1,63 @@
+{
+  "filmcards": [
+    {
+      "id": 1,
+      "image":"https://coppola.qodeinteractive.com/wp-content/uploads/2021/11/product-9.jpg",
+      "title": "Countrey",
+      "price": "21"
+    },
+    {
+      "id": 2,
+      "image":"https://coppola.qodeinteractive.com/wp-content/uploads/2021/11/product-8.jpg",
+      "title": "Perfect Edition",
+      "price": "51"
+    },
+    {
+      "id": 3,
+      "image":"https://coppola.qodeinteractive.com/wp-content/uploads/2021/11/product-7.jpg",
+      "title": "Gone",
+      "price": "51"
+    },  
+   {
+      "id": 4,
+      "image":"https://coppola.qodeinteractive.com/wp-content/uploads/2021/11/product-6.jpg",
+      "title": "Balungan Kere ",
+      "price": "31"
+    },
+    {
+      "id": 5,
+      "image":"https://coppola.qodeinteractive.com/wp-content/uploads/2021/11/product-5.jpg",
+      "title": "Home",
+      "price": "36"
+    },
+    {
+      "id": 6,
+      "image":"https://coppola.qodeinteractive.com/wp-content/uploads/2021/11/product-4.jpg",
+      "title": "Double Life ",
+      "price": "23"
+    }
+  ],
+  "tickets":[
+    {
+    "id":7,
+   "day":"One day",
+   "type":"Regular iticket",
+   "price":"10",
+     "description":"Lorem ipsum dolores sit amet, dlores sit."
+  },
+  {
+    "id":8,
+   "day":"Vip pass",
+   "type":"Backstage pass",
+   "price":"100",
+     "description":"Lorem ipsum dolores sit amet, dlores sit."
+  },
+  {
+    "id":9,
+   "day":"7 days pack",
+   "type":"Regular iticket",
+   "price":"60",
+     "description":"Lorem ipsum dolores sit amet, dlores sit."
+  }
+  ]
+}
