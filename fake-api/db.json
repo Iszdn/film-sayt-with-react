@@ -59,5 +59,54 @@
    "price":"60",
      "description":"Lorem ipsum dolores sit amet, dlores sit."
   }
+  ],
+  "proqramme":[
+    {
+    "id":10,
+   "data":"07 may",
+   "title":"the piano teacher",
+   "time":"11:00/15:00/19:30"
+  },
+  {
+    "id":11,
+    "data":"07 may",
+    "title":"the songs of my father",
+    "time":"11:00/15:00/19:30"},
+  {
+    "id":12,
+    "data":"08 may",
+    "title":"strawberries",
+    "time":"11:00/15:00/19:30"},
+    {
+      "id":13,
+      "data":"09 may",
+      "title":"the strange love of ana & marco",
+      "time":"11:00/15:00/19:30"}
+  ],
+  "speakers":[
+    {
+    "id":14,
+   "name":"Tripp mckay",
+   "position":"Camera Operator"
+   },
+  {
+    "id":15,
+   "name":"zahira wide",
+   "position":"Movie Director"
+   },
+  {
+    "id":16,
+   "name":"shin samari",
+   "position":"Casting Director"},
+   {
+    "id":17,
+   "name":"keren hess",
+   "position":"Set Director"
+   },
+   {
+    "id":18,
+   "name":"victor gray",
+   "position":"Sound Designer"
+   }
   ]
 }

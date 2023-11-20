@@ -2,6 +2,8 @@ import React from 'react'
 import "./index.css"
 import CardForFilm from '../CardsForFilm'
 import CardForTickets from '../CardsForTickets'
+import CardForProqramme from '../CardForProqramme'
+import CardForSpeacker from '../CardForSpeaker'
 
 function Main() {
   return (
@@ -101,62 +103,9 @@ function Main() {
 
 
 
+{/* <div className="fest">Festival Proqramme</div> */}
 
-<div className="proqram-cards">
-<div className="fest">Festival Proqramme</div>
-
-<div className="proqram-card">
-    <span className="may">07 may</span>
-    <h5 className="proqram-title">the piano teacher</h5>
-    <span className="proqram-time">11:00/15:00/19:30</span>
-    <div className="have-info">
-    <div className="view">
-    <a className="view-more" href="">View More<i class="fa-solid fa-arrow-right-long"></i></a></div>
-    <div className="btnp">
-  <a href="">Get Tickets</a>
-</div>
-</div>
-</div>
-
-<div className="proqram-card">
-    <span className="may">07 may</span>
-    <h5 className="proqram-title">the songs of my father</h5>
-    <span className="proqram-time">11:00/15:00/19:30</span>
-    <div className="have-info">
-    <div className="view">
-    <a className="view-more" href="">View More<i class="fa-solid fa-arrow-right-long"></i></a></div>
-    <div className="btnp">
-  <a href="">Get Tickets</a>
-</div>
-</div>
-</div>
-
-<div className="proqram-card">
-    <span className="may">08 may</span>
-    <h5 className="proqram-title">strawberries</h5>
-    <span className="proqram-time">11:00/15:00/19:30</span>
-    <div className="have-info">
-    <div className="view">
-    <a className="view-more" href="">View More<i class="fa-solid fa-arrow-right-long"></i></a></div>
-    <div className="btnp">
-  <a href="">Get Tickets</a>
-</div>
-</div>
-</div>
-
-<div className="proqram-card">
-    <span className="may">09 may</span>
-    <h5 className="proqram-title">the strange love of ana & marco</h5>
-    <span className="proqram-time">11:00/15:00/19:30</span>
-    <div className="have-info">
-    <div className="view">
-    <a className="view-more" href="">View More<i class="fa-solid fa-arrow-right-long"></i></a></div>
-    <div className="btnp">
-  <a href="">Get Tickets</a>
-</div>
-</div>
-</div>
-</div>
+<CardForProqramme></CardForProqramme>
 </div>
 </section>
 {/* festival proqram section end  */}
@@ -169,7 +118,7 @@ function Main() {
                 <h6 className="aud-title">audience choice</h6>
                 <div className="video-content">
 <div className="video-div">
-    <video src="https://coppola.qodeinteractive.com/wp-content/uploads/2021/11/home4-video.mp4" controls  autoplay loop muted="muted" playsinline controlslist="nodownload"></video>
+<video  src="https://coppola.qodeinteractive.com/wp-content/uploads/2021/11/home4-video.mp4" autoplay="" loop="" muted="muted" playsinline="" controlslist="nodownload" poster="https://coppola.qodeinteractive.com/wp-content/uploads/2021/11/h4-img1.jpg"></video>
 </div>
 <div className="content-v">
     <p className="text-vi">documentary</p>
@@ -219,6 +168,21 @@ function Main() {
 </div>
 </section>
 {/* maqazine section end  */}
+
+
+{/* speakers section start  */}
+<section id='speakers'>
+<div className="cont-speak">
+<h6 className="title-tick">
+        speakers
+    </h6>
+ <CardForSpeacker></CardForSpeacker>
+</div>
+</section>
+
+{/* speakers section end */}
+
+
 {/* tickets section start  */}
 <section id='ticket'>
 <div className="cont-tick">

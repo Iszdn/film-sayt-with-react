@@ -230,6 +230,10 @@ li {
   }
   .navigations-media {
     padding: 34px 50px;
+    z-index: 4;
+    position: absolute;
+    background-color: black;
+    width: 100%;
   }
   .nav-bar-media2{
     display: none;

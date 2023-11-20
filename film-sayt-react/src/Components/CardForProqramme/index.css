@@ -1,0 +1,15 @@
+.fest{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-bottom: 5rem;
+    padding-left: 7.5rem;
+}
+.proqram-cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding-left: 7.5rem;
+
+}

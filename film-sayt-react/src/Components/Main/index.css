@@ -212,153 +212,8 @@ justify-content: center;
     height: 100%;
     background-color: #EDEDED;
 }
-.fest{
-    font-size: 18px;
-    text-transform: uppercase;
-    font-weight: 500;
-    padding-bottom: 5rem;
-}
-.proqram-cards{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: start;
-    padding-left: 7.5rem;
-    /* flex-wrap: wrap; */
 
-}
-.proqram-card{
-   display: flex; 
-   height: 4.5rem; 
-   align-items: center;
-   border-bottom: 1px solid #959494;
-  margin-bottom: 2.5rem;
-}
-.proqram-title{
-    padding-left: 1.5rem;
-    padding-right: 5.6rem;
-    margin: 0;
-    text-transform: uppercase;
-    width: 31.25rem;
-    font-size: 25px;
-    font-weight: 500;
-}
-.proqram-time{
-    padding: 0 6.25rem 0 2rem;
-    flex: unset;
-    font-size: 18px;
 
-}
-.may{
-    font-size: 18px;
-    text-transform: uppercase;
-    padding-right: 3.4rem;
-    
-}
-.have-info{
-    display: flex;
-    align-items: center;
-    gap: 5rem ;
-}
-.view-more{
-    font-size: 16px;
-}
-.fa-arrow-right-long{
-    transform: rotate(-45deg);
-}
-.btnp{
-    width: 8rem;
-    height: 2.6rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #000;
-    background-color: transparent;
-    border: 2px solid #000;
-    transition: all 0.5s;
-}
-.btnp:hover{
-    background-color: #000;
-    color: white;
-    
-}
-
-@media (max-width: 1450px) {
-    .proqram-cards{
-        align-items: start;
-        padding-left: 2.5rem;
-    }
-    .proqram-title{
-        padding-left: 0;
-        padding-right:0;
-        margin: 0;
-        text-transform: uppercase;
-        width: 220px;
-        font-size: 23px;
-        font-weight: 500;
-    }
-  }
-  @media (max-width: 1024px) {
-    .proqram-card{
-        display: flex; 
-        flex-direction: column;
-        height: 100%; 
-        align-items: start;
-        border-bottom: 1px solid #959494;
-        gap: 20px;
-     }
-     .proqram-title{
-         padding-left: 0;
-         padding-right: 0;
-         margin: 0;
-         text-transform: uppercase;
-         width: 100%;
-         font-size: 25px;
-         font-weight: 500;
-     }
-     .proqram-time{
-         padding: 0 ;
-         flex: unset;
-         font-size: 18px;
-     
-     }
-     .may{
-         font-size: 18px;
-         text-transform: uppercase;
-         padding-right: 0;
-
-         
-     }
-     .have-info{
-         display: flex;
-         align-items: start;
-         flex-direction: column;
-         gap: 10px ;
-         padding-bottom: 20px;
-     }
-     .view-more{
-         font-size: 16px;
-     }
-     .fa-arrow-right-long{
-         transform: rotate(-45deg);
-     }
-     .btnp{
-         width: 8rem;
-         height: 2.6rem;
-         display: flex;
-         align-items: center;
-         justify-content: center;
-         color: #000;
-         background-color: transparent;
-         border: 2px solid #000;
-         transition: all 0.5s;
-     }
-     .btnp:hover{
-         background-color: #000;
-         color: white;
-         
-     }
-}
 /* audience choice section start  */
 #audience-choice{
     background-image: url("https://coppola.qodeinteractive.com/wp-content/uploads/2021/11/h4-bg-img1.jpg");
@@ -564,6 +419,13 @@ margin-top: 50px;
         flex-direction: column;
     }
 }
+/* maqazine end  */
+/* speakers section start */
+#speakers{
+    padding: 70px 70px 85px 70px;
+    background-color:#EDEDED;
+}
+
 /* tickets section start */
 #ticket{
     padding: 70px 70px 85px 70px;
