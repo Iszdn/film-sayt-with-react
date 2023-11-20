@@ -24,7 +24,7 @@ main{
 }
 #header{
     padding: 50px;
-   height: 100vh;
+   height: 100%;
    color: white;
    background-position-x: center;
 background-size: cover;

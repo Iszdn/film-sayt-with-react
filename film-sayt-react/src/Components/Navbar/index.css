@@ -106,6 +106,9 @@ li {
   transition: all 0.8s;
 }
 .nav-center {
+  z-index: 2;
+  left: 70px;
+  position: fixed;
   background-color: #000000;
   color: white;
   display: flex;

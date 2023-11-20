@@ -3,3 +3,13 @@
     gap: 20px;
     flex-wrap: wrap;
 }
+.tickets .tickets-card:nth-child(1){
+    background-color: #d2cab9;
+}
+
+.tickets .tickets-card:nth-child(2){
+    background-color: black;
+}
+.tickets .tickets-card:nth-child(3){
+    background-color: #F3F3F3;
+}
